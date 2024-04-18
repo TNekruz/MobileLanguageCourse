@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Base.Theme.LanguageApp"
+    tools:context="com.example.MobileAppCourse.WordPractice">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonGuess6"
+        android:layout_width="329dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_round_blue"
+        android:fontFamily="@font/fredoka_semibold"
+        android:text="Check"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonGuessFly"
+        android:layout_width="329dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/button_word_practice"
+        android:fontFamily="@font/fredoka_semibold"
+        android:text="Муха"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonGuessGardener"
+        android:layout_width="329dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/button_word_practice"
+        android:fontFamily="@font/fredoka_semibold"
+        android:text="Садовник"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonGuessGladious"
+        android:layout_width="329dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/button_word_practice"
+        android:fontFamily="@font/fredoka_semibold"
+        android:text="Гладиолус"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonGuessDog"
+        android:layout_width="329dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/button_word_practice"
+        android:fontFamily="@font/fredoka_semibold"
+        android:text="Собака"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBarLogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#410FA3"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fredoka_semibold"
+            android:text="Word Practice"
+            android:textColor="@color/white"
+            android:background="#410FA3"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_button_login"
+            android:layout_width="30dp"
+            android:layout_height="39dp"
+            android:background="@drawable/back_button"
+            android:onClick="onBackButtonClicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.013" />
+
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:theme="@style/Base.Theme.LanguageApp"
+        android:fontFamily="@font/fredoka_semibold"
+        android:text="gardener"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/fredoka_semibold"
+        android:theme="@style/Base.Theme.LanguageApp"
+        android:text="[ 'gɑ:dnə ]"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
